@@ -1,0 +1,19 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?","Hey", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!,How are you?","Hi,How are you", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["c ya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","Bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","Will miss you :-("],
+         "context_set": ""
+        },
+         {"tag": "what",
+         "patterns": ["how are you?", "What are you doing?", "what's up"],
+         "responses": ["Me? Great!", "Me? Chillin"],
+         "context_set": ""
+        },
+   ]
+}
+// Add the rest on your own
